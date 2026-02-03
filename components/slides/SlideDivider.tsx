@@ -8,7 +8,7 @@ interface SlideDividerProps {
 
 const SlideDivider: React.FC<SlideDividerProps> = ({ number, title }) => {
   return (
-    <section className="relative min-h-screen w-full flex flex-col bg-[#9E8B78] text-white">
+    <section className="relative h-[1080px] w-full flex flex-col bg-[#9E8B78] text-white">
       {/* Header */}
       <div className="absolute top-8 right-12 opacity-80">
         <div className="text-white font-bold text-lg tracking-widest">LOTTE INNOVATE</div>

@@ -3,7 +3,7 @@ import { LogoParadise, LogoLotte } from '../Icons';
 
 const SlideCover: React.FC = () => {
   return (
-    <section className="relative min-h-screen w-full flex flex-col bg-cream overflow-hidden">
+    <section className="relative h-[1080px] w-full flex flex-col bg-cream overflow-hidden">
       {/* Top Decoration Bar */}
       <div className="absolute top-0 left-0 w-1/3 h-6 bg-[#8C735A]"></div>
       

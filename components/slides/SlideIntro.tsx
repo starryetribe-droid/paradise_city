@@ -3,9 +3,9 @@ import { LogoParadise, LogoLotte } from '../Icons';
 
 const SlideIntro: React.FC = () => {
   return (
-    <section className="relative min-h-screen w-full flex flex-col bg-cream">
-       {/* Header */}
-       <div className="flex justify-between items-start px-12 py-8">
+    <section className="relative h-[1080px] w-full flex flex-col bg-cream">
+      {/* Header */}
+      <div className="flex justify-between items-start px-12 py-8">
         <span className="text-lg text-black">01. Executive Summary</span>
         <LogoLotte className="h-4" />
       </div>
@@ -15,7 +15,7 @@ const SlideIntro: React.FC = () => {
         <div className="mb-16 transform scale-150">
           <LogoParadise />
         </div>
-        
+
         <div className="text-center space-y-4 max-w-4xl mx-auto">
           <p className="text-2xl font-light text-brown-dark leading-relaxed break-keep">
             파라다이스시티 고객의 Digital Experience 개선을 위한 첫 과제로

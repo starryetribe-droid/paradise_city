@@ -2,9 +2,9 @@ import React from 'react';
 
 const SlideMarket3: React.FC = () => {
   return (
-    <section className="relative min-h-screen w-full flex flex-col bg-grey-cool">
-       {/* Header */}
-       <div className="flex justify-between items-start px-12 py-8 text-white opacity-70">
+    <section className="relative h-[1080px] w-full flex flex-col bg-grey-cool">
+      {/* Header */}
+      <div className="flex justify-between items-start px-12 py-8 text-white opacity-70">
         <span className="text-lg">02. 제안개요 / 01. 마켓의 이해</span>
       </div>
 

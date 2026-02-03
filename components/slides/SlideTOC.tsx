@@ -15,7 +15,7 @@ const SlideTOC: React.FC = () => {
   ];
 
   return (
-    <section className="relative min-h-screen w-full flex flex-col bg-white">
+    <section className="relative h-[1080px] w-full flex flex-col bg-white">
       {/* Header */}
       <div className="flex justify-between items-start p-12">
         <span className="text-lg font-bold text-gray-500 tracking-wider">TABLE OF CONTENTS</span>

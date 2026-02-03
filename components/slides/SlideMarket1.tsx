@@ -3,9 +3,9 @@ import { LogoLotte } from '../Icons';
 
 const SlideMarket1: React.FC = () => {
   return (
-    <section className="relative min-h-screen w-full flex flex-col bg-cream">
-       {/* Header */}
-       <div className="flex justify-between items-start px-12 py-8">
+    <section className="relative h-[1080px] w-full flex flex-col bg-cream">
+      {/* Header */}
+      <div className="flex justify-between items-start px-12 py-8">
         <span className="text-lg text-gray-500">02. 제안개요 / 01. 마켓의 이해</span>
         <LogoLotte className="h-4" />
       </div>
